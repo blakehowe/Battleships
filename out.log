@@ -5,4 +5,4 @@ vbnc : Command line : warning VBNC2009: the option platform was not recognized -
 Assembly 'Battleships, Version=0.0, Culture=neutral, PublicKeyToken=null' saved successfully to '/Users/mac/Documents/Battleships/bin/Debug/Battleships.exe'.
 There were 0 errors and 1 warnings.
 Compilation successful
-Compilation took 00:00:01.2445820
+Compilation took 00:00:01.2476400
