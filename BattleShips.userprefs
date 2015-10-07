@@ -1,20 +1,23 @@
 ﻿<Properties StartupItem="BattleShips.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/GameLogic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Model/AIPlayer.cs">
     <Files>
-      <File FileName="src/Model/AIPlayer.cs" Line="1" Column="1" />
+      <File FileName="src/Model/AIPlayer.cs" Line="21" Column="26" />
       <File FileName="src/Model/AIHardPlayer.cs" Line="1" Column="1" />
       <File FileName="src/Model/AIMediumPlayer.cs" Line="1" Column="1" />
-      <File FileName="src/GameController.cs" Line="9" Column="34" />
-      <File FileName="src/GameResources.cs" Line="104" Column="22" />
-      <File FileName="src/DeploymentController.cs" Line="8" Column="1" />
-      <File FileName="src/DiscoveryController.cs" Line="76" Column="4" />
-      <File FileName="src/EndingGameController.cs" Line="45" Column="124" />
-      <File FileName="src/GameLogic.cs" Line="31" Column="11" />
-      <File FileName="src/GameState.cs" Line="5" Column="34" />
-      <File FileName="src/HighScoreController.cs" Line="178" Column="41" />
-      <File FileName="src/MenuController.cs" Line="210" Column="48" />
-      <File FileName="src/UtilityFunctions.cs" Line="296" Column="11" />
+      <File FileName="src/GameController.cs" Line="1" Column="1" />
+      <File FileName="src/GameResources.cs" Line="1" Column="1" />
+      <File FileName="src/DeploymentController.cs" Line="1" Column="1" />
+      <File FileName="src/DiscoveryController.cs" Line="1" Column="1" />
+      <File FileName="src/EndingGameController.cs" Line="1" Column="1" />
+      <File FileName="src/GameLogic.cs" Line="28" Column="3" />
+      <File FileName="src/GameState.cs" Line="1" Column="1" />
+      <File FileName="src/HighScoreController.cs" Line="1" Column="1" />
+      <File FileName="src/MenuController.cs" Line="1" Column="1" />
+      <File FileName="src/UtilityFunctions.cs" Line="1" Column="1" />
+      <File FileName="src/Model/ISeaGrid.cs" Line="9" Column="17" />
+      <File FileName="src/Model/SeaGrid.cs" Line="1" Column="1" />
+      <File FileName="src/Model/SeaGridAdapter.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
