@@ -211,6 +211,7 @@ static class UtilityFunctions
 
 
 	private static string _message;
+	private static string _whoseTurnMessage;
 	/// <summary>
 	/// The message to display
 	/// </summary>
@@ -221,12 +222,20 @@ static class UtilityFunctions
 		set { _message = value; }
 	}
 
+	public static string WhoseTurnMessage {
+		get { return _whoseTurnMessage; }
+		set { _whoseTurnMessage = value; }
+	}
+
+
+
 	/// <summary>
 	/// Draws the message to the screen
 	/// </summary>
 	public static void DrawMessage()
 	{
 		SwinGame.DrawText(Message, MESSAGE_COLOR, GameFont("Courier"), FIELD_LEFT, MESSAGE_TOP);
+		SwinGame.DrawText(WhoseTurnMessage, MESSAGE_COLOR, GameFont("Courier"), FIELD_LEFT + 250, MESSAGE_TOP);
 	}
 
 	/// <summary>

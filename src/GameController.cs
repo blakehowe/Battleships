@@ -162,8 +162,22 @@ public static class GameController
 
 		if (isHuman) {
 			Message = "You " + result.ToString();
+
 		} else {
 			Message = "The AI " + result.ToString();
+		}
+
+		if (Message == "The AI missed") {
+			WhoseTurnMessage = "It is your turn!";
+		}
+		else if (Message == "You missed") {
+			WhoseTurnMessage = "Computer is thinking....";
+		}
+		else if (Message == "You hit something!") {
+			WhoseTurnMessage = "Go on, have another go..";
+		}
+		else {
+			WhoseTurnMessage = "";
 		}
 
 		switch (result.Value) {
@@ -193,6 +207,7 @@ public static class GameController
 				break;
 			case ResultOfAttack.Miss:
 				PlayMissSequence(result.Row, result.Column, isHuman);
+				
 				break;
 			case ResultOfAttack.ShotAlready:
 				Audio.PlaySoundEffect(GameSound("Error"));
